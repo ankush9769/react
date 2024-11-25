@@ -1,0 +1,15 @@
+case 1 : without context if want to access something which is presente at the app.jsx into the components folder file like navbar.jsx , button.jsx,component1.jsx
+
+to achive this we follow the following structure 
+
+  app
+    navbar 
+       button
+          component1
+
+to follow this approch you can reffer the non-context folder
+
+
+case 2 : with context if want to access something which is presente at the app.jsx into the components folder file like navbar , button,component1 so for that we use context api to share the data between the components and the app.jsx file whos name is useContext
+
+for more reffer the main code
