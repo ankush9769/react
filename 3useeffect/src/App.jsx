@@ -8,6 +8,8 @@ function App() {
   const [count, setCount] = useState(0)
   const [color, setColor] = useState(0)          //this will handle color
 
+  // The useEffect hook in React is a powerful tool for managing side effects in functional components. 
+  
   useEffect(() => {       //this is also known as hook                //this will run when the page will load
     alert("hello this is useEffect , i will run on every render")
   })

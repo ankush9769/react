@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    background-image: url("bgimg.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+    padding: 10px 20px;
+    border: 2px white solid;
+    border-radius: 5px;
+    gap: 20px;
+}
+.add{
+    display: flex;
+    justify-content: space-between
+}
+.add input{
+    outline: none;
+    width: 70%;
+    padding: 5px 5px;
+}
+.add button{
+    background-color: rgb(0, 47, 255);
+    color: rgb(241, 235, 235)    ;
+    padding:5px 10px;
+}
+.list{
+    background-color: white;
+    padding: 3px 2px;
+    border: 1px rgb(0, 0, 0) solid;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.todolist{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.delete{
+    padding: 3px 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.edit{
+    padding: 3px 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.button{
+    display: flex;
+    gap: 5px
+}
